@@ -16,7 +16,7 @@ document.getElementById('timerForm').addEventListener('submit', function(event) 
         countdownDisplay.textContent = time;
         if (time <= 0) {
             clearInterval(countdown);
-            alert('Time is up!');
+            alert('Time has come to an end!');
         }
     }, 1000);
 });
